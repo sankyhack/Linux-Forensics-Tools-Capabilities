@@ -1,0 +1,31 @@
+Tool,varc,CyLR,CatScaleIR,UAC
+process details,yes,,yes,yes
+process hashes,,,yes,yes
+netstat,yes,,yes,yes
+cron,,yes,,
+openfiles,yes,,yes,
+Var / log / *,yes,yes,yes,
+grub config,,yes,,
+- /etc/* directory,yes,yes,yes,
+usnJournl,,yes,,
+process dump,yes,,,
+- /run directory,yes,,,
+- /sys directory,yes,yes,,
+- /usr/* directory,yes,,,
+SELinux,,,yes,
+routetable,,,yes,
+sshDetails,,,yes,
+lsmod,,,yes,
+sudo details,,,yes,
+packages details,,,yes,yes
+persistence details,,,yes,
+container/docer details,,,yes,yes
+hidden directory list,,,yes,
+timeline csv,,,yes,
+setuid/setguid,,,yes,
+bodyfile,,,,yes
+hardwareinfo,,,,yes
+chkroot,,,,yes
+,Good for dumping memory,"Dumps required files
+
+Collects USNJournal",Elk Stack  configured to consume the output and assist the analysis process.,Good details in live response
